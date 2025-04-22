@@ -1,0 +1,58 @@
+    * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    body {
+      
+        background: #d7f9fa;
+        background: linear-gradient(270deg,rgba(215, 249, 250, 1) 0%, rgba(45, 173, 253, 1) 100%);
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+
+    .container-fluid {
+        height: 100vh;
+        width: 100vw;
+
+    }
+
+    .container {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .container .covidData {
+        padding: 20px;
+        margin: 40px 0px;
+        height: 1650px;
+        width: 90%;
+        background: rgba(255, 255, 255, 0.25);
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+    }
+
+    .container .covidData h2 {
+
+        margin: 20px;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        color: white;
+    }
+
+    .container .covidData .dataSheet {
+        margin-top: 40px;
+        height: auto;
+    }
+
+    .container .covidData .dataShee table {
+        background-color: aliceblue;
+    }
